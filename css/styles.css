@@ -127,11 +127,11 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.15rem + 0.6vw);
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 3.15rem;
   }
 }
 
@@ -11487,7 +11487,8 @@ footer.footer .social-link:hover {
 }
 .masthead h1, .masthead .h1 {
   color: cornflowerblue;
-  font-size: 4rem;
+  /*font-size: 4rem;*/
+  font-size: 5.5rem;
   margin: 0;
   padding: 0;
 }
@@ -11496,7 +11497,7 @@ footer.footer .social-link:hover {
     height: 100vh;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 5.5rem;
+    font-size: 12.5rem;
   }
 }
 
@@ -11574,4 +11575,14 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.text-desc {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .text-desc {
+    font-size: 1.3rem;
+  }
 }
